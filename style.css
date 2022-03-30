@@ -1,0 +1,429 @@
+
+body {
+    background-color:rgb(252, 252, 248) ;
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* all links colors */
+  a:link {
+      color: pink;
+      text-decoration: none;
+  }
+  a:visited {
+      color: coral;
+      text-decoration: none;
+  }
+  a:hover {
+      color:blueviolet;
+      text-decoration: none;
+  }
+  a:active {
+      color:red;
+      text-decoration: none;
+  }
+
+.summary {
+    border:2px solid green;
+    height: 300px;
+    width: 30%;
+    border-radius: 8px;
+    margin-top: 15%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 10%;
+    width: 300px;
+    box-shadow: 10px 10px 20px rgb(160, 189, 199);
+}
+.title4 {
+    color: darkblue;
+}
+
+h1 {text-align: center; color:forestgreen; border: 4px double green;}
+h3 {color: rgb(4, 4, 110); background-color:cornflowerblue; text-align: center;
+}
+
+.menu {text-align:center; 
+    text-transform: capitalize; 
+    background-color: rgb(221, 226, 240);
+}
+/* dropdown menu @media screen */
+.dropdown {
+    display:none;
+}
+
+  /* image1 and image2 centre */
+.photos {
+    text-align: center;
+}
+
+span {
+    color: rgb(50, 150, 50);
+    font-weight: bold;
+}
+
+.image1 {
+    border: 4px dashed green;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 20px rgb(166, 196, 224);
+    /* box shadow: bottom; left; right; blur; color */
+}
+
+.image2 {
+    border: 4px dotted green;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px rgb(101, 127, 136);
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    /* color:green */
+}
+
+.word1 {
+    text-shadow: 5px 5px 5px;
+    margin-left: 29%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+.image3 {
+    float: right;
+    border: 3px solid cadetblue;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+/* @media screen and (max-width: 768px) 
+margin-top: */ 
+}
+
+.paragraph {text-align: justify;}
+.section1 {text-align: justify;}
+
+.first {
+    color: darkblue;
+}
+.second {
+    color: darkblue;
+}
+.third {color: darkblue;}
+
+/* video and title of the video centre */
+.video1 {
+    color: blue;
+    text-align: center;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    width:"30%"; height:"30%";
+}
+
+.video1title1 {
+    color:blue;
+    text-shadow: 2px 2px 5px greenyellow;
+}
+
+.bottomtitle {text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.paragraphhelp {
+    text-align: justify;
+}
+
+.fourth {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    text-align: center; 
+    color: whitesmoke;
+    background-image: radial-gradient(rgb(226, 164, 164), darkcyan);
+}
+
+.map1 {
+    width:400px; height:200px;
+    margin-bottom:5%;
+}
+
+/* map image center */
+.map1 {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#newsletter1 {
+    margin-top:5%;
+    margin-bottom:5%;
+}
+#newsletter2 {
+    margin-top:5%;
+    margin-bottom:5%;
+}
+#newsletter3 {
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+form {
+    color: rgb(13, 128, 230);
+}
+
+#form_line {
+    display:flex;
+    justify-content: center;
+}
+
+#form2 {
+    margin-left:10%;
+}
+
+#fname {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#lname {
+    width: 100%;
+    padding-top:5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#email {
+    width: 100%;
+    padding-top:5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+}
+
+.button {
+    background-color: rgb(221, 164, 20);
+    border: 2px double white;
+    border-radius:4px;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: alias;
+    transition-duration: 0.5s;
+    
+  }
+  .button:hover {
+      background-color: steelblue;
+  }
+
+  /* media screen and (max-width: 300px)*/
+  @media screen and (max-width: 300px) {
+body { background-color: orange;
+      }
+
+/* dropdown menu */
+.dropbtn {
+    background-color: rgb(179, 179, 202);
+    color: white;
+    padding: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+
+  }
+  .dropdown {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(33, 199, 83);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 100%;
+    overflow: auto;
+  }
+
+  .dropdown-content a {
+    color: rgb(14, 145, 36);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(240, 239, 235)}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: rgb(158, 158, 187);
+  }
+      .image3 {
+        width: 50%;
+        height: 30%;
+        float: right;
+        border: 3px solid green;
+        margin-left: 5%;
+        margin-right: 3%;
+        margin-top: 8%; 
+      }
+
+      .map1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .summary {
+        border:2px solid green;
+        height: 300px;
+        width: 30%;
+        border-radius: 8px;
+        margin-top: 20%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 10%;
+        width: 300px;
+        box-shadow: 10px 10px 30px rgb(160, 189, 199);
+
+    }
+
+    .image1 {
+        width: 50%;
+        height: 20%;
+    }
+      
+    .image2 {
+        width: 50%;
+        height: 20%;
+    }
+    .word1 {
+        margin-left:10%;
+    } 
+  }
+
+  /* media screen and (max-width:768px) */
+    @media screen and (max-width:768px) {
+body {
+         background-color: rgb(252, 252, 248); 
+    }
+
+
+/* dropdown menu */
+.dropbtn {
+    background-color: rgb(179, 179, 202);
+    color: white;
+    padding: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+
+  }
+  .dropdown {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(33, 199, 83);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 100%;
+    overflow: auto;
+  }
+
+  .dropdown-content a {
+    color: rgb(14, 145, 36);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(240, 239, 235)}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: rgb(158, 158, 187);
+  }
+
+    .image3 {
+            width: 40%;
+            height: 30%;
+            float: right;
+            border: 3px solid green;
+            margin-left: 5%;
+            margin-right: 2%;
+            margin-top: 8%; 
+            margin-bottom: 3%;
+          }
+
+    .map1 {
+        display: block;
+         margin-left: auto;
+        margin-right: auto;
+    }
+    .map1 {
+        width:100%; height:20%;
+        margin-bottom:5%;
+    }
+    
+        .summary {
+            border: 2px solid green;
+            height: 300px;
+            width: 280px;
+            border-radius: 8px;
+            margin-top: 15%;
+            margin-left: 1%;
+            margin-right: 3%;
+            margin-bottom: 20%;
+            box-shadow: 10px 10px 20px rgb(179, 199, 206);
+        }
+
+        .image1 {
+            width: 50%;
+            height: 20%;
+        }
+        .image2 {
+            width: 50%;
+            height: 20%;
+        }
+        .word1 {
+            margin-left:10%;
+        } 
+
+        .video1 {
+            margin-top: 3%;
+            margin-left: 10%;
+            margin-right: 20%;
+            margin-bottom: 3%;
+            
+            width:"50%"; 
+            height:"30%";
+        }
+
+        .bottomtitle {
+            margin-left: 12%;
+            margin-right: 2%;
+        }
+    }
